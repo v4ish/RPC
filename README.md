@@ -13,4 +13,6 @@
 
 <img src="https://cdn.discordapp.com/attachments/926176591736889385/1131840988877434940/image.png" alt="logo" width="300"/>
 
-####[Waterfox](https://github.com/v4ish/Waterfox-RPC)
+#### [Waterfox](https://github.com/v4ish/Waterfox-RPC)
+
+<img src="https://cdn.discordapp.com/attachments/926176591736889385/1132010937923154061/image.png" alt="logo" width="300"/>
