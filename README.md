@@ -16,6 +16,10 @@
 
 <img src="https://cdn.discordapp.com/attachments/926176591736889385/1132010937923154061/image.png" alt="logo" width="300"/>
 
+#### [Waterfox](https://github.com/v4ish/Spicetify-RPC)
+
+<img src="https://cdn.discordapp.com/attachments/926176591736889385/1132658091889012797/image.png" alt="logo" width="300"/>
+
 ### Requirements
 
 - [Download .NET Desktop Runtime 6.0.20](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
