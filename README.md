@@ -31,7 +31,7 @@ Extract and run .exe file from .7z
 
 ### FAQ
 
-#### .EXE file is not launching/opens and closes a terminal
+#### .EXE file is not launching/ open and closes a terminal
 
 - Make sure you have dotnet 6.0 installed.
 
