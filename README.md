@@ -41,4 +41,5 @@ Extract and run .exe file from .7z
 
 ####  Having trouble or Want to request a new RPC?
 
+- [Request a RPC by opening a issue](https://github.com/v4ish/RPC/labels/Request)
 - [Join Discord](https://dsc.gg/v4ish)
