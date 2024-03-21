@@ -27,7 +27,7 @@
 ### Installation
 
 ```bash
-Download & Install .net 6.0 runtime
+Download & Install .net 8.0 runtime
 
 Extract and run .exe file from .7z
 ```
@@ -36,7 +36,7 @@ Extract and run .exe file from .7z
 
 #### .EXE file is not launching/ open and closes a terminal
 
-- Make sure you have dotnet 6.0 installed.
+- Make sure you have dotnet 8.0 installed.
 
 ####  Having trouble or Want to request a new RPC?
 
