@@ -3,9 +3,6 @@
 
 ## All My Discord Rich Presences
 ‎
-#### [QBittorrent](https://github.com/v4ish/Qbit-RPC)
-
-<img src="https://github.com/v4ish/RPC/blob/main/Screenshots/qbit.png" alt="logo" width="300"/>
 
 
 #### [DaVinci Resolve](https://github.com/v4ish/DVResolve-RPC)
@@ -15,6 +12,10 @@
 #### [Spicetify](https://github.com/v4ish/Spicetify-RPC)
 
 <img src="https://github.com/v4ish/RPC/blob/main/Screenshots/spice.png" alt="logo" width="300"/>
+
+#### [QBittorrent](https://github.com/v4ish/Qbit-RPC)
+
+<img src="https://github.com/v4ish/RPC/blob/main/Screenshots/qbit.png" alt="logo" width="300"/>
 
 ### Requirements
 
