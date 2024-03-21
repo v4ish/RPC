@@ -12,10 +12,6 @@
 
 <img src="https://github.com/v4ish/RPC/blob/main/Screenshots/davinci.png" alt="logo" width="300"/>
 
-#### [Waterfox](https://github.com/v4ish/Waterfox-RPC)
-
-<img src="https://github.com/v4ish/RPC/blob/main/Screenshots/waterfox.png" alt="logo" width="300"/>
-
 #### [Spicetify](https://github.com/v4ish/Spicetify-RPC)
 
 <img src="https://github.com/v4ish/RPC/blob/main/Screenshots/spice.png" alt="logo" width="300"/>
