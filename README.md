@@ -13,7 +13,7 @@
 
 <img src="https://github.com/v4ish/RPC/blob/main/Screenshots/spice.png" alt="logo" width="300"/>
 
-#### [QBittorrent](https://github.com/v4ish/Qbit-RPC)
+#### [QBittorrent (WIP)](https://github.com/v4ish/Qbit-RPC)
 
 <img src="https://github.com/v4ish/RPC/blob/main/Screenshots/qbit.png" alt="logo" width="300"/>
 
