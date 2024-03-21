@@ -22,8 +22,7 @@
 
 ### Requirements
 
-- [Download .NET Desktop Runtime 6.0.20](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
-
+- [Download .NET Desktop Runtime 8](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
 ### Installation
 
