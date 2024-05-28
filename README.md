@@ -13,9 +13,13 @@
 
 <img src="https://github.com/v4ish/RPC/blob/main/Screenshots/spice.png" alt="logo" width="300"/>
 
-#### [QBittorrent (WIP)](https://github.com/v4ish/Qbit-RPC)
+#### [QBittorrent](https://github.com/v4ish/Qbit-RPC)
 
 <img src="https://github.com/v4ish/RPC/blob/main/Screenshots/qbit.png" alt="logo" width="300"/>
+
+#### [VLC Media Player](https://github.com/v4ish/VLC-RPC)
+
+<img src="https://github.com/v4ish/RPC/blob/main/Screenshots/vlc.png" alt="logo" width="300"/>
 
 ### Requirements
 
