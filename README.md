@@ -19,7 +19,7 @@
 
 #### [VLC Media Player](https://github.com/v4ish/VLC-RPC)
 
-<img src="https://github.com/v4ish/RPC/blob/main/Screenshots/vlc.png" alt="logo" width="300"/>
+<img src="https://github.com/v4ish/RPC/blob/main/Screenshots/vlc2.png" alt="logo" width="300"/>
 
 ### Requirements
 
