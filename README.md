@@ -5,14 +5,6 @@ A lightweight background utility for Windows that automatically updates your Dis
 ---
 [Discord's Developer Portal](https://discord.com/developers/applications)
 
-## Features
-
-* **Automatic Detection:** Dynamically switches Discord RPC status when supported apps run.
-* **Dynamic Activity Tracking:** Displays custom verbs and active window/file titles.
-* **System Tray Control:** Runs in the background with full tray management.
-* **GUI Configuration:** Manage monitored apps via a built-in settings window.
-* **Auto-Update & Startup:** Optional Windows startup persistence and GitHub release checks.
-
 ---
 
 ## Requirements
