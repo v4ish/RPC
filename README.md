@@ -50,19 +50,11 @@ Automatically generated on first launch. Edit directly or via the built-in **Set
 
 * **ProcessName:** Windows process name (without `.exe`).
 * **DiscordAppId:** Discord Developer Client ID.
-* **LargeImageKey:** Asset key from your Discord Developer portal.
-* **DisplayName:** User-friendly application name.
-* **ActivityVerb:** Action verb displayed in Discord (e.g., *Editing*, *Watching*).
+* **LargeImageKey:** Rich Presence Asset key.
+* **DisplayName:**  what to show name.
+* **ActivityVerb:** Action verb displayed in Discord (e.g., *Editing*, *Watching*, *Streaming*, *Listening*).
 
 ---
-
-## System Tray Controls
-
-* **Double-Click:** Open Settings.
-* **Start with Windows:** Toggle auto-start persistence.
-* **Check for Updates:** Scan for newer releases via GitHub.
-* **Help / About:** View utility information.
-* **Exit:** Safely close the utility.
 ‎
 
 ### FAQ
