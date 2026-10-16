@@ -16,8 +16,8 @@ A lightweight background utility for Windows that automatically updates your Dis
 
 ## Requirements
 
-* **Windows 10 / 11**
-* **.NET Runtime**
+* **Windows 7+**
+* **.NET 8.0 Runtime**
 * **Discord Desktop Application** running locally.
 
 ---
@@ -56,7 +56,7 @@ Automatically generated on first launch. Edit directly or via the built-in **Set
 
 ---
 
-## Tray Controls
+## System Tray Controls
 
 * **Double-Click:** Open Settings.
 * **Start with Windows:** Toggle auto-start persistence.
