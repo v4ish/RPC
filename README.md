@@ -3,6 +3,7 @@
 A lightweight background utility for Windows that automatically updates your Discord Rich Presence based on your active applications.
 
 ---
+[Discord's Developer Portal](https://discord.com/developers/applications)
 
 ## Features
 
