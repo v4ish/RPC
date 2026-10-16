@@ -1,43 +1,76 @@
-# RPC
+# MultiAppRPC
 
+A lightweight background utility for Windows that automatically updates your Discord Rich Presence based on your active applications.
 
-## All My Discord Rich Presences
-‎
+---
 
+## Features
 
-#### [DaVinci Resolve](https://github.com/v4ish/DVResolve-RPC)
+* **Automatic Detection:** Dynamically switches Discord RPC status when supported apps run.
+* **Dynamic Activity Tracking:** Displays custom verbs and active window/file titles.
+* **System Tray Control:** Runs in the background with full tray management.
+* **GUI Configuration:** Manage monitored apps via a built-in settings window.
+* **Auto-Update & Startup:** Optional Windows startup persistence and GitHub release checks.
 
-<img src="https://github.com/v4ish/RPC/blob/main/Screenshots/davinci.png" alt="logo" width="300"/>
+---
 
-#### [Spicetify](https://github.com/v4ish/Spicetify-RPC)
+## Requirements
 
-<img src="https://github.com/v4ish/RPC/blob/main/Screenshots/spice.png" alt="logo" width="300"/>
+* **Windows 10 / 11**
+* **.NET Runtime**
+* **Discord Desktop Application** running locally.
 
-#### [QBittorrent](https://github.com/v4ish/Qbit-RPC)
+---
 
-<img src="https://github.com/v4ish/RPC/blob/main/Screenshots/qbit.png" alt="logo" width="300"/>
+## Installation & Setup
 
-#### [VLC Media Player](https://github.com/v4ish/VLC-RPC)
+1. Download the latest release archive from the releases page.
+2. Extract all files to your desired installation directory.
+3. Place an `app.ico` file in the folder (optional; uses system fallback if missing).
+4. Run `MultiAppRPC.exe`.
 
-<img src="https://github.com/v4ish/RPC/blob/main/Screenshots/vlc2.png" alt="logo" width="300"/>
+---
 
-### Requirements
+## Configuration (`appsettings.json`)
 
-- [Download .NET Desktop Runtime 8](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+Automatically generated on first launch. Edit directly or via the built-in **Settings** window:
 
-### Installation
+```json
+[
+  {
+    "ProcessName": "TouchDesigner",
+    "DiscordAppId": "YOUR_DISCORD_APP_ID",
+    "LargeImageKey": "white",
+    "DisplayName": "TouchDesigner",
+    "ActivityVerb": "Editing"
+  }
+]
 
-```bash
-Download & Install .net 8.0 runtime
-
-Extract and run .exe file from .7z
 ```
+
+* **ProcessName:** Windows process name (without `.exe`).
+* **DiscordAppId:** Discord Developer Client ID.
+* **LargeImageKey:** Asset key from your Discord Developer portal.
+* **DisplayName:** User-friendly application name.
+* **ActivityVerb:** Action verb displayed in Discord (e.g., *Editing*, *Watching*).
+
+---
+
+## Tray Controls
+
+* **Double-Click:** Open Settings.
+* **Start with Windows:** Toggle auto-start persistence.
+* **Check for Updates:** Scan for newer releases via GitHub.
+* **Help / About:** View utility information.
+* **Exit:** Safely close the utility.
+‎
 
 ### FAQ
 
-#### .EXE file is not launching/ open and closes a terminal
+#### .EXE file is not launching?
 
 - Make sure you have dotnet 8.0 installed.
+- Check Tray Menu
 
 ####  Having trouble or Want to request a new RPC?
 
