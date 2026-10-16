@@ -49,7 +49,7 @@ Automatically generated on first launch. Edit directly or via the built-in **Set
 ```
 
 * **ProcessName:** Windows process name (without `.exe`).
-* **DiscordAppId:** Discord Developer Client ID.
+* **DiscordAppId:** Discord Developer Application ID.
 * **LargeImageKey:** Rich Presence Asset key.
 * **DisplayName:**  what to show name.
 * **ActivityVerb:** Action verb displayed in Discord (e.g., *Editing*, *Watching*, *Streaming*, *Listening*).
