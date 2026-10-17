@@ -49,6 +49,18 @@ Automatically generated on first launch. Edit directly or via the built-in **Set
 
 ---
 ‎
+| Application  | AppID | Assets  |
+|----------|-------|--------|
+| TouchDesigner   | `1555927073145487421`  | `black, white`     |
+| DaVinci Resolve  | `1131090005872349215`   | `main`     |
+| mpv    | `1560586298958413904`  | `mpv`     |
+| VLC Media Player  | `1244968109299863554`   | `main, main-logo`     |
+| QBittorrent    | `1131638268698566738`  | `logo-new`     |
+| Spicetify    | `1132652587187982406`  | `main, main-logo`     |
+| Waterfox    | `1131889146995154995`  | `main`     |
+| Road 96    | `1546138009051725846`  | `road96`     |
+| Counter-Strike 2    | `1409102557938454591`  | `cs2_logo, ak47, ct_logo, t_logo, de_dust2, de_inferno, de_mirage, timer`     |
+
 
 ### FAQ
 
