@@ -30,6 +30,8 @@ Automatically generated on first launch. Edit directly or via the built-in **Set
 ```json
 [
   {
+    "IsEnabled": true,
+    "IsPrivate": false,
     "ProcessName": "TouchDesigner",
     "DiscordAppId": "12345676767676767",
     "LargeImageKey": "white",
