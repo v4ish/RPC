@@ -17,10 +17,9 @@ A lightweight background utility for Windows that automatically updates your Dis
 
 ## Installation & Setup
 
-1. Download the latest release archive from the releases page.
+1. Download the latest release.
 2. Extract all files to your desired installation directory.
-3. Place an `app.ico` file in the folder (optional; uses system fallback if missing).
-4. Run `MultiAppRPC.exe`.
+3. Run `MultiAppRPC.exe`.
 
 ---
 
