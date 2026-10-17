@@ -60,6 +60,7 @@ Automatically generated on first launch. Edit directly or via the built-in **Set
 | Road 96    | `1546138009051725846`  | `road96`     |
 | Counter-Strike 2    | `1409102557938454591`  | `cs2_logo, ak47, ct_logo, t_logo, de_dust2, de_inferno, de_mirage, timer`     |
 | Windows Terminal    | `1560925252303855626`  | `cls`     |
+| Steam    | `1560935090476023848`  | `steam`     |
 
 
 ### FAQ
