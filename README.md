@@ -10,14 +10,14 @@ A lightweight background utility for Windows that automatically updates your Dis
 ## Requirements
 
 * **Windows 7+**
-* **.NET 8.0 Runtime**
-* **Discord Desktop Application** running locally.
+* **[.NET 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)**
+* **[Discord](https://discord.com/channels/@me) Desktop Application** running locally.
 
 ---
 
 ## Installation & Setup
 
-1. Download the latest release.
+1. Download the [latest release](https://github.com/v4ish/RPC/releases/latest).
 2. Extract all files to your desired installation directory.
 3. Run `MultiAppRPC.exe`.
 
