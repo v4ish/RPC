@@ -31,7 +31,7 @@ Automatically generated on first launch. Edit directly or via the built-in **Set
 [
   {
     "ProcessName": "TouchDesigner",
-    "DiscordAppId": "YOUR_DISCORD_APP_ID",
+    "DiscordAppId": "12345676767676767",
     "LargeImageKey": "white",
     "DisplayName": "TouchDesigner",
     "ActivityVerb": "Editing"
