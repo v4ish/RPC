@@ -1,31 +1,23 @@
+
 # MultiAppRPC
 
-A lightweight background utility for Windows that automatically updates your Discord Rich Presence based on your active applications.
+A tiny Windows System Tray app that automatically flexes what you're doing on Discord Rich Presence. Set it up once, Find it on the system tray, and let it do its thing.
 
----
-[Discord's Developer Portal](https://discord.com/developers/applications)
-
----
-
-## Requirements
-
-* **Windows 7+**
-* **[.NET 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)**
-* **[Discord](https://discord.com/channels/@me) Desktop Application** running locally.
+Made with ❤️
 
 ---
 
-## Installation & Setup
+## 🚀 Quickstart
 
-1. Download the [latest release](https://github.com/v4ish/RPC/releases/latest).
-2. Extract all files to your desired installation directory.
-3. Run `MultiAppRPC.exe`.
+1. Grab the [.NET 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
+2. Download the [latest release](https://github.com/v4ish/RPC/releases/latest) and extract the files.
+3. Run `MultiAppRPC.exe` — it'll live in your system tray.
 
 ---
 
-## Configuration (`appsettings.json`)
+## ⚙️ Configuration (`appsettings.json`)
 
-Automatically generated on first launch. Edit directly or via the built-in **Settings** window:
+Created automatically when you first launch the app. Edit the config file manually or just use the built-in Settings UI:
 
 ```json
 [
@@ -42,38 +34,36 @@ Automatically generated on first launch. Edit directly or via the built-in **Set
 
 ```
 
-* **ProcessName:** Windows process name (without `.exe`).
-* **DiscordAppId:** Discord Developer Application ID.
-* **LargeImageKey:** Rich Presence Asset key.
-* **DisplayName:**  what to show name.
-* **ActivityVerb:** Action verb displayed in Discord (e.g., *Editing*, *Watching*, *Streaming*, *Listening*).
+* **ProcessName:** Executable name (without `.exe`).
+* **DiscordAppId:** Your Discord Developer App ID.
+* **LargeImageKey:** Asset key configured in your Discord portal.
+* **DisplayName:** The app name shown on your profile.
+* **ActivityVerb:** Custom status verb (*Editing*, *Watching*, *Listening*, *Playing*).
 
 ---
-‎
-| Application  | AppID | Assets  |
-|----------|-------|--------|
-| TouchDesigner   | `1555927073145487421`  | `black, white`     |
-| DaVinci Resolve  | `1131090005872349215`   | `main`     |
-| mpv    | `1560586298958413904`  | `mpv`     |
-| VLC Media Player  | `1244968109299863554`   | `main, main-logo`     |
-| QBittorrent    | `1131638268698566738`  | `logo-new`     |
-| Spicetify    | `1132652587187982406`  | `main, main-logo`     |
-| Waterfox    | `1131889146995154995`  | `main`     |
-| Road 96    | `1546138009051725846`  | `road96`     |
-| Counter-Strike 2    | `1409102557938454591`  | `cs2_logo, ak47, ct_logo, t_logo, de_dust2, de_inferno, de_mirage, timer`     |
-| Windows Terminal    | `1560925252303855626`  | `cls`     |
-| Steam    | `1560935090476023848`  | `steam`     |
-| Firefox    | `1560942734129365123`  | `firefox`     |
 
+## 🎯 Pre-configured Apps
 
-### FAQ
+Works right out of the box with these presets:
 
-#### .EXE file is not launching?
+| Application | AppID | Assets |
+| --- | --- | --- |
+| **TouchDesigner** | `1555927073145487421` | `black`, `white` |
+| **DaVinci Resolve** | `1131090005872349215` | `main` |
+| **mpv** | `1560586298958413904` | `mpv` |
+| **VLC Media Player** | `1244968109299863554` | `main`, `main-logo` |
+| **qBittorrent** | `1131638268698566738` | `logo-new` |
+| **Spicetify** | `1132652587187982406` | `main`, `main-logo` |
+| **Waterfox** | `1131889146995154995` | `main` |
+| **Road 96** | `1546138009051725846` | `road96` |
+| **Counter-Strike 2** | `1409102557938454591` | `cs2_logo`, `ak47`, `ct_logo`, `t_logo`, `de_dust2`, `de_inferno`, `de_mirage`, `timer` |
+| **Windows Terminal** | `1560925252303855626` | `cls` |
+| **Steam** | `1560935090476023848` | `steam` |
+| **Firefox** | `1560942734129365123` | `firefox` |
 
-- Make sure you have dotnet 8.0 installed.
-- Check Tray Menu
+---
 
-####  Having trouble or Want to request a new RPC?
+## 💬 Community & Support
 
-- [Request a RPC by opening a issue](https://github.com/v4ish/RPC/labels/Request)
-- [Join Discord](https://dsc.gg/v4ish)
+* **Not starting up?** Make sure [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) is installed and check your system tray menu icons.
+* **Missing an app?** [Open an RPC Request](https://github.com/v4ish/RPC/labels/Request) or hop into our [Discord Community](https://dsc.gg/v4ish)!
