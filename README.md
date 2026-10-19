@@ -1,11 +1,43 @@
 
 # MultiAppRPC
 
-A tiny Windows System Tray app that automatically flexes what you're doing on Discord Rich Presence. Set it up once, Find it on the system tray, and let it do its thing.
+
+A tiny Windows System Tray app that automatically flexes what you're doing on Discord Rich Presence. Set it up once, Forget that you set it up, and let it do its thing.
 
 Made with ❤️
+## 🖥️ Interface Overview
+
+```text
+┌───────────────────────────────────────────────────────────────────────────────────────┐
+│                 MULTI-APP DISCORD RPC WATCHER (v1.1.0) - UI OVERVIEW                 │
+└───────────────────────────────────────────────────────────────────────────────────────┘
+
+  SYSTEM TRAY MENU                                   MAIN SETTINGS CONFIGURATION WINDOW
+┌───────────────────────────┐       ┌───────────────────────────────────────────────────────────────────────┐
+│ Status: Active (Firefox)  │       │ MultiAppRPC Settings                                        [─][□][✕] │
+│ [✓] Enable RPC Service    │       ├───────────────────────────────────────────────────────────────────────┤
+│ [ ] Global Private Mode   │       │ Enabled │ Private │ Display Name   │ Process Name (.exe) │ Verb         │
+├───────────────────────────┤       ├─────────┼─────────┼────────────────┼────────────────────┼──────────────┤
+│ Settings...  ─────────────┼──────>│   [✓]   │   [ ]   │ TouchDesigner  │ TouchDesigner      │ Editing      │
+│ Start with Windows        │       │   [✓]   │   [ ]   │ DaVinci Resolve│ Resolve            │ Editing      │
+│ Check for Updates...      │       │   [✓]   │   [🔒]  │ mpv            │ mpv                │ Watching     │
+│ Help / About              │       │   [✓]   │   [🔒]  │ VLC Media Player│ VLC              │ Watching     │
+├───────────────────────────┤       │   [✓]   │   [ ]   │ Counter-Strike 2│ cs2              │ Playing      │
+│ Exit                      │       │   [✓]   │   [🔒]  │ qBittorrent    │ qbittorrent        │ Managing     │
+└───────────────────────────┘       │   [✓]   │   [🔒]  │ Firefox        │ firefox            │ Browsing     │
+                                    │   [✓]   │   [ ]   │ Spicetify      | spotify            │ Listening to │
+                                    ├───────────────────────────────────────────────────────────────────────┤
+                                    │ [ Add ] [ Delete ]  [ Move Up ] [ Move Down ]  [ Load JSON ] [ Export ]│
+                                    │                                                                       │
+                                    │ [✓] Enable RPC Service   [ ] Global Private Mode  [✓] Start with Win  │
+                                    │                                       ┌──────────────┐ ┌────────────┐ │
+                                    │                                       │ Save & Apply │ │   Cancel   │ │
+                                    └───────────────────────────────────────┴──────────────┴─┴────────────┴─┘
+
+```
 
 ---
+
 
 ## 🚀 Quickstart
 
@@ -40,11 +72,19 @@ Created automatically when you first launch the app. Edit the config file manual
 * **DisplayName:** The app name shown on your profile.
 * **ActivityVerb:** Custom status verb (*Editing*, *Watching*, *Listening*, *Playing*).
 
+
 ---
+
+
 
 ## 🎯 Pre-configured Apps
 
+<details>
+  <summary><i>Click me.</i></summary>
+ 
+
 Works right out of the box with these presets:
+ <b>
 
 | Application | AppID | Assets |
 | --- | --- | --- |
@@ -60,6 +100,8 @@ Works right out of the box with these presets:
 | **Windows Terminal** | `1560925252303855626` | `cls` |
 | **Steam** | `1560935090476023848` | `steam` |
 | **Firefox** | `1560942734129365123` | `firefox` |
+</b>
+</details>
 
 ---
 
